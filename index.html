@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My 3D Sketch Portfolio</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hint">CLICK A DOOR TO EXPLORE · MOVE YOUR MOUSE TO LOOK AROUND</div>
+<main id="scene" aria-label="Interactive hand-drawn portfolio room">
+  <div class="world" id="world">
+    <div class="back-wall">
+      <div class="wall-lines"></div>
+      <div class="sign" id="sign">PORTFOLIO</div>
+      <div class="window"><span></span><span></span><span></span><span></span></div>
+      <div class="plant"><i></i><i></i><i></i><i></i><b></b></div>
+      <div class="door-row">
+        <button class="door portfolio" data-room="portfolio"><span class="door-label">PORTFOLIO</span><span class="door-icons">▣　✦<br>◉　▤<br>✉　⌘</span><small>EXPLORE</small></button>
+        <button class="door gallery" data-room="gallery"><span class="door-label">THE GALLERY</span><span class="art-grid"><i>✿</i><i>▧</i><i>◈</i><i>✦</i></span></button>
+        <button class="door studio" data-room="studio"><span class="door-label">THE STUDIO</span><span class="art-grid"><i>▤</i><i>◉</i><i>▶</i></span></button>
+        <button class="door about" data-room="about"><span class="door-label">ABOUT</span><span class="about-note">HELLO!<br>come on in</span></button>
+      </div>
+      <div class="arrow a1">↘</div><div class="arrow a2">↙</div>
+    </div>
+    <div class="floor"><div class="floor-lines"></div></div>
+    <div class="left-wall"><div class="brick-lines"></div><div class="tree"><i></i><i></i><i></i><i></i><b></b></div><div class="frame">◯</div></div>
+    <div class="right-wall"><div class="right-window"></div></div>
+  </div>
+  <section class="room-panel" id="panel" aria-live="polite">
+    <button class="close" id="close" aria-label="Close">×</button>
+    <p class="eyebrow" id="eyebrow">WELCOME TO MY WORLD</p><h1 id="panel-title">A portfolio with a little imagination.</h1>
+    <p id="panel-copy">Choose a door in the sketch room to discover my work, experiments and story.</p>
+    <div id="panel-content"></div>
+  </section>
+  <div class="bottom-note">A LITTLE ROOM FOR BIG IDEAS <span>✦</span></div>
+</main>
+<script src="script.js"></script>
+</body></html>
