@@ -1,18 +1,20 @@
-# 3D Sketch Portfolio
+# Nitesh Kumar — 3D Sketch Portfolio
 
-An interactive, hand-drawn-style portfolio room. Click a door to explore Portfolio, Gallery, Studio, and About.
+Interactive hand-drawn-style 3D portfolio built with Three.js and TWEEN.js.
 
-## Live demo
+## Features
+- 3D hallway with animated entrance door
+- Clickable Gallery, Studio, Resume and About doors
+- Sketch-like paper textures and camera transitions
+- Responsive layout, pointer interaction and mobile pinch-to-zoom
+- Project and social profile links
 
-Once GitHub Pages is enabled, the site should be available at:
+## Run locally
+Open `index.html` in a modern browser with internet access. Three.js, TWEEN.js and Google Fonts load from CDNs.
 
-https://nitesh-datascience.github.io/3D-Sketch-Portfolio/
+## GitHub Pages
+Open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then Save.
 
-## Deploy with GitHub Pages
+Live URL (after Pages is enabled): https://nitesh-datascience.github.io/3D-Sketch-Portfolio/
 
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, select **Deploy from a branch**.
-3. Choose branch **main** and folder **/(root)**, then click **Save**.
-4. Wait for the Pages deployment workflow to complete, then open the URL above.
-
-The entry page is `index.html`; styles are in `style.css` and interactions are in `script.js`.
+Replace project links marked `#` in `index.html` with your actual project URLs.
